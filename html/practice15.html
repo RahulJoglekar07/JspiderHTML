@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    form{
+        background-color: black;
+        color: aliceblue;
+    }
+    button{
+        background-color: aliceblue;
+    }
+    div{
+        margin: auto;
+        max-width: 95%;
+    }
+</style>
+<body>
+    <div>
+    <form action="">
+        <fieldset>
+            <table>
+            <tr>
+                <td><label  for="n">FullName</label></td>
+                <td> <input autofocus type="text" id="n" maxlength="20">(max 20 char a-z and A-Z) </td>
+            </tr>
+             <tr>
+            <td><label for="l">Lastname </label></td>
+            <td> <input type="text" id="l" maxlength="20">(max 20 char a-z and A-Z) </td>
+        </tr>
+        <tr>
+            <td><label for="">Date of Birth</label></td>
+            <td><select name="" id="">
+                    <option value="">1</option>
+                </select>
+                <select name="" id="">
+                    <option value="">January</option>
+                </select>
+                <select name="" id="">
+                    <option value="">2022</option>
+                </select>
+               </td>
+        </tr>
+        <tr>
+           <td> <label for="G">GENDER</label></td>
+            
+           <td> <input type="radio" name="G" id="M" >
+           <label for="M">male</label>      
+           
+            <input type="radio" name="G" id="F">
+            <label for="F">female</label></td>
+            
+        </tr>
+        <tr>
+            <td><label for="e">EMAIL ID</label></td>
+            <td><input id="e" type="email"></td>
+        </tr>
+        <tr>
+           <td> <label for="m">MOBILE <br> NO</label></td>
+            <td><input id="m" type="number" ></td>
+        </tr>
+        <tr>
+            <td><label for="A">ADDRESS</label></td>
+            <td><textarea name="" id="A" cols="30" rows="10"></textarea></td>
+        </tr>
+        <tr>
+            <td> <label for="C">CITY</label></td>
+            <td><input id="C" type="text" ></td>
+        </tr>
+        <tr>
+            <td> <label for="P">PINCODE</label></td>
+            <td><input id="P" type="number" >(6 digit number)</td>
+        </tr>
+        <tr>
+            <td> <label for="E">EMAIL ID</label></td>
+            <td><input id="E" type="email" ></td>
+        </tr>
+        <tr>
+            <td> <label for="S">STATE</label></td>
+            <td><input id="S" type="text" ></td>
+        </tr>
+        <tr>
+            <td> <label for="co">COUNTRY</label></td>
+            <td><input id="co" type="text" ></td>
+        </tr>
+        <tr>
+            <td> <label for="h">HOBBIES</label></td>
+            <td><input id="DR" type="checkbox" ><label for="DR"> Drawing</label>
+                <input id="SI" type="checkbox" ><label for="SI">Singing</label> 
+                <input id="DA" type="checkbox" ><label for="DA"> Dancing </label><br>
+                <input id="O" type="checkbox" ><label for="O"> Other </label><input type="text"></td>
+        </tr>
+        <tr>
+            <td> <label for="">Qualification</label></td>
+            <td>
+                <table>
+                    <tr>
+                        <td>sl no </td>
+                        <td>Examination</td>
+                        <td>Board</td>
+                        <td>Perentage</td>
+                        <td>Year of pass</td>
+                    </tr>
+                    <tr>
+                        <td>01</td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>02</td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>03</td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>04</td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+         <tr>
+            <td><label for="">COURSES <br>APPLIED <br>FOR</label></td>
+            <td><input id="BCA" type="checkbox" ><label for="BCA"> BCA</label>
+                <input id="Bco" type="checkbox" > <label for="Bco">B.com</label>
+                <input id="Bs" type="checkbox" ><label for="Bs"> B.sc </label>
+                <input id="Ba" type="checkbox" > <label for="Ba">B.A</label></td>
+         </tr>
+         
+         <tr>
+            <td></td>
+            <td><center><button>submit</button>
+            <button>reset</button></center></td>
+         </tr>
+        </table>
+        </fieldset>
+    </form>
+</div>
+</body>
+</html>
